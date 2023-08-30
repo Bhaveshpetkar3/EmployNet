@@ -1,2 +1,0 @@
-# EmployNet
-Mega project

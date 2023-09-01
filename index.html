@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <script>
+        if(navigator.geolocation)
+{
+    navigator.geolocation.getCurrentPosition(function(position)
+    {
+        console.log(`Latitude is: ${position.coords.latitude} and longitude is: ${position.coords.longitude}`);
+    },function()
+    {
+        alert("Could not get the location for some reason!");
+    })
+}
+    </script>
     <div class="first1"></div>
     <div class="first2">
         <div class="first3">

@@ -96,6 +96,40 @@
 .four11:hover{
     background-color: rgb(55, 55, 55);
 }
+.four12{
+    font-size: 16px;
+    margin-top: 2rem;
+}
+.four13{
+    color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+.four13:hover{
+    text-decoration: underline;
+}
+.four14{
+    width: 20rem;
+    box-shadow: 0px 3px 26px rgba(85, 85, 85, 0.925);
+    border-radius: 4px;
+    background-color: white;
+    padding: 2rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+.four15{
+    display: flex;
+    justify-content: space-between;
+}
+.four16{
+    font-size: 14px;
+    margin-top: .5rem;
+}
+.four17:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 @media screen and (max-width:500px) {
     .four1{
         width: 18rem;

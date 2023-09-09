@@ -444,16 +444,30 @@ body {
     background-color: white;
     border-radius: 1rem;
     z-index: 2; */
+    /*
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.01);
-  width: 50%;
+  transition: all .8s ease 0.2s;
+  width: 10cm;
   background-color: white;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 6;
+  */
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.01);
+    transition: all .8s ease 0.2s;
+    width: 10cm;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 6;
+
 }
 .five63 {
   height: 7rem;
@@ -553,7 +567,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(3px);
+  filter: blur(3px);
   z-index: 5;
 }
 .hidden {

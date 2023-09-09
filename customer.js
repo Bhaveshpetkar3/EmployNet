@@ -37,10 +37,12 @@ prof.addEventListener("click", function () {
   //prof2.style.display="block";
   overlay.classList.remove("hidden");
   modal.classList.remove("hidden");
+  modal.style.visibility = "visible"; //have to remove
   modal.style.transform = "translate(-50%, -50%) scale(1)";
 });
 function closethemodal() {
-  modal.classList.add("hidden");
+  //modal.classList.add("hidden");
+  modal.style.visibility = "visible";//have to remove
   overlay.classList.add("hidden");
   modal.style.transform = "translate(-50%, -50%) scale(0.01)";
 }

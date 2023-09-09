@@ -42,7 +42,7 @@ prof.addEventListener("click", function () {
 });
 function closethemodal() {
   //modal.classList.add("hidden");
-  modal.style.visibility = "visible";//have to remove
+  modal.style.visibility = "hidden"; //have to remove
   overlay.classList.add("hidden");
   modal.style.transform = "translate(-50%, -50%) scale(0.01)";
 }

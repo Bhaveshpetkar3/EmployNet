@@ -1,0 +1,170 @@
+.four1{
+    width: 20rem;
+    box-shadow: 0px 3px 26px rgba(85, 85, 85, 0.925);
+    border-radius: 4px;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+.four2{
+    width: 100%;
+}
+.four3{
+    margin: .5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+    font-weight: 600;
+}
+.four4{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+}
+.four5{
+    width: 90%;
+    margin: .5rem 0;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 10px 2px rgba(163, 163, 163, 0.802);
+    height: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 1rem;
+}
+.four6{
+    min-width: 90%;
+    max-width: 90%;
+    margin: .5rem 0;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 10px 2px rgba(163, 163, 163, 0.802);
+    height: 8rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 1rem;
+}
+.four7{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.four9{
+    width: 2.2rem;
+    height: 2.2rem;
+    cursor: pointer;
+}
+.four10{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.four11{
+    padding: 1rem 0;
+    width: 18rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.918);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.four11:hover{
+    background-color: rgb(55, 55, 55);
+}
+.four12{
+    font-size: 16px;
+    margin-top: 2rem;
+}
+.four13{
+    color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+.four13:hover{
+    text-decoration: underline;
+}
+.four14{
+    width: 20rem;
+    box-shadow: 0px 3px 26px rgba(85, 85, 85, 0.925);
+    border-radius: 4px;
+    background-color: white;
+    padding: 2rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+.four15{
+    display: flex;
+    justify-content: space-between;
+}
+.four16{
+    font-size: 14px;
+    margin-top: .5rem;
+}
+.four17:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.four18{
+    width: 20rem;
+    box-shadow: 0px 3px 26px rgba(85, 85, 85, 0.925);
+    border-radius: 4px;
+    background-color: white;
+    padding: 2rem;
+    display: none;
+    margin: 0 1rem;
+}
+.four19{
+    padding: 1rem 0;
+    width: 18rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.918);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.four19:hover{
+    background-color: rgb(55, 55, 55);
+}
+@media screen and (max-width:500px) {
+    .four1{
+        width: 18rem;
+    }
+    .four9{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .four11{
+        width: 15rem;
+    }
+}

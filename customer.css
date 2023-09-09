@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.five1{
+    margin-top: 2px;
+    display: flex;
+    border-bottom: 5px solid #c3c3c3;
+    border-top: 2px solid #c3c3c3;
+}
+.five2{
+    width: 24%;
+    margin-right: 2px;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    border-bottom: 2px inset #c3c3c3;
+    border-right: 2px inset #c3c3c3;
+}
+.five3{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px inset #c3c3c3;
+    cursor: pointer;
+}
+.five4{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin: .5rem;
+    overflow: hidden;
+}
+.five5{
+    font-family: Georgia, serif;;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.five6{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    border: solid 1px rgb(89, 89, 89);
+    height: 2.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 0 10px 1px rgba(159, 159, 159, 0.722);
+}
+.five7{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 8px;
+}
+.five8{
+    background-color: white;
+    padding: 1.5rem 0;
+    margin-top: 2px;
+}
+.five9{
+    border: none;
+    font-size: 18px;
+    overflow: hidden;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    width: 77%;
+}
+.five10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.five11{
+    box-shadow: 0px 3px 5px 2px rgba(189, 189, 189, 0.708);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    border-radius: 4px;
+    margin: 1rem;
+}
+.five11:hover{
+    box-shadow: 0px 3px 5px 2px rgba(127, 127, 127, 0.708);
+}
+.five12{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .5rem 0;
+}
+.five13{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-size: 13px;
+    line-height: 16px;
+    color: #212121;
+    margin: .5rem;
+    text-align: center;
+}
+.five14{
+    background-color: white;
+}
+.five17{
+    width: 76%;
+    position: sticky;
+    top: 0;
+}
+.five15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five16{
+    padding: .75rem 0;
+    margin: 1.5rem 4px;
+    background-color: rgba(67, 67, 67, 0.933);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+}
+.five16:hover{
+    background-color: rgb(45, 45, 45);
+}
+.five18{
+    width:45%;
+}
+.five19{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width:60%;
+    border: solid 1px rgb(68, 68, 68);
+    box-shadow: inset 0 0 10px 1px rgba(159, 159, 159, 0.722);
+    border-radius: 5px;
+    margin: 0 .5rem;
+}
+.five20{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: white;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    border-bottom: 2px inset #c3c3c3;
+}
+.five21{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width:25%;
+    border: solid 1px rgb(68, 68, 68);
+    box-shadow: inset 0 0 10px 1px rgba(159, 159, 159, 0.722);
+    border-radius: 5px;
+    margin: 0 .5rem;
+}
+.five22{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.five23{
+    border: none;
+    outline: none;
+    width: 85%;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+.five24{
+    display: flex;
+}
+.five25{
+    width: 55%;
+    margin-right: 2px;
+    background-color: white;
+    padding: .5rem 0;
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 1rem;
+    
+}
+.five26{
+    width: 45%;
+    background-color: white;
+    padding: .5rem 0;
+    height: 100%;
+    border-bottom: 2px solid #c3c3c3;
+}
+.five27{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border: solid 1px rgb(45, 45, 45);
+    border-radius: 5px;
+}
+.five28{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 4px 0;
+}
+.five29{
+    width: 1rem;
+    height: 1rem;
+    margin: 8px 0;
+    margin-right: 8px;
+}
+.five30{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+}
+.five31{
+    display: flex;
+    align-items: center;
+}
+.five32{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.five33{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+    margin: 8px .5rem;
+}
+.five34{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    color: rgba(132, 99, 223, 0.96);
+    background-color: white;
+    padding: .5rem 1.5rem;
+    margin: 12px 0 .5rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgb(174, 174, 174);
+    cursor: pointer;
+    border: 1px solid rgb(107, 107, 107);
+}
+.five34:hover{
+    box-shadow: 0px 0px 5px 2px rgb(114, 114, 114);
+}
+.five35{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+.five36{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+    margin: 1rem 0;
+    max-height: 3.2rem;
+    overflow: hidden;
+}
+.five37{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgba(132, 99, 223, 0.96);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.five37:hover{
+    text-decoration: underline;
+}
+.five38{
+    display: float;
+    float: right;
+}
+.five39{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 5px;
+    margin: 0 0 .5rem .5rem;
+}
+.five40{
+    margin: .5rem 1rem;
+    padding: 1rem;
+    border: solid 1px rgb(45, 45, 45);
+    border-radius: 5px;
+}
+.five41{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 4px 0;
+}
+.five42{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+    margin: 1rem 0;
+}
+.five44{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.five45{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.five46{
+    display: flex;
+    justify-content: space-between;
+}
+.five47{
+    width: 18px;
+    margin: 0 4px;
+}
+.five48{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 0;
+}
+.five49{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 8px;
+}
+.five50{
+    height: 4px;
+    background-color: rgb(194, 194, 194);
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.five51{
+    height: 4px;
+    background-color: rgb(56, 56, 56);
+}
+.five52{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgb(57, 57, 57);
+}
+.five53{
+    height: 8rem;
+    overflow: auto;
+}
+.five54{
+    margin-bottom: 2rem;
+}
+.five55{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.five56{
+    display: flex;
+    align-items: center;
+}
+.five57{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+.five58{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.five59{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+    margin: 6px 0;
+}
+.five61{
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(61 61 61 / 85%);
+    z-index: 1;
+}
+.five62{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.01);
+    transition: all .8s ease 0.2s;
+    width: 10cm;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.five63{
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.five64{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.five65{
+    text-align: right;
+    width:4.5cm;
+    padding: .5rem 0;
+    font-weight: 500;
+}
+.five66{
+    width:4.5cm;
+    padding: .5rem 0;
+}
+.five67{
+    color: #5a5a5a;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+.five67:hover{
+    text-decoration: underline;
+}
+.five68{
+    color: #5a5a5a;
+}
+@media screen and (max-width: 500px) {
+    .five1{
+        display: block;
+    }
+    .five2{
+        width: 100%;
+        position: static;
+        height: auto;
+    }
+    .five17{
+        width: 100%;
+    }
+    .five14{
+        border-top: 2px solid #c3c3c3;
+    }
+    .five24{
+        display: block;
+    }
+    .five25{
+        position: static;
+        width: 100%;
+    }
+    .five26{
+        display: none;
+    }
+    .five16{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .five23{
+        width: 70%;
+    }
+    .five39{
+        width:5rem;
+        height:5rem;
+    }
+    .five28{
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+    .five60{
+        display: none;
+    }
+    .five30{
+        font-size: 12px;
+        margin: 1rem 0;
+    }
+}

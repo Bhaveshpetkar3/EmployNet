@@ -511,6 +511,148 @@ body {
 .five68 {
   color: #5a5a5a;
 }
+.five69{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: .5rem 1rem;
+  }
+  .five70{
+    padding: .5rem 0;
+    width: 100%;
+    border-bottom: 2px solid #c3c3c3;
+  }
+  .five71{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .five72{
+    width: 20rem;
+    margin: .7rem 1rem;
+  }
+  .five73{
+    width: 20rem;
+    margin: 1rem;
+  }
+  .five74{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem;
+    border: 1px solid black;
+    justify-content: space-around;
+    border-radius: 5px;
+  }
+  .five75{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem 0;
+  }
+  .five76{
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #f5c639cc;
+  }
+  .five77{
+    height: 4px;
+    width: 5rem;
+    margin: 0 4px;
+    background-color: #f5c639cc;
+  }
+  .five78{
+    display: flex;
+    justify-content: space-between;
+    margin: .7rem 0;
+  }
+  .five79{
+    width: 4rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 500;
+    color: rgb(93, 93, 93);
+  }
+  .five80{
+    width: 4.3rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(93, 93, 93);
+    padding: 4px 0;
+  }
+  .five81{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 4px;
+    float: right;
+    margin-top: 1rem;
+  }
+  .five82{
+    line-height: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212121;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .five83{
+    line-height: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #212121;
+  }
+  .five84{
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+    transform: scale(0.01);
+    animation-name: ani1;
+    animation-fill-mode: forwards;
+    animation-duration: .4s;
+    animation-timing-function: ease;
+  }
+  .five85{
+    height: 4px;
+    width: 0;
+    background-color: rgb(77, 180, 81);
+    animation-name: ani2;
+    animation-fill-mode: forwards;
+    animation-duration: .4s;
+    animation-timing-function: ease;
+  }
+  .five86{
+    animation-delay: 0s;
+  }
+  .five87{
+    animation-delay: .4s;
+  }
+  .five88{
+    animation-delay: .8s;
+  }
+  .five89{
+    animation-delay: 1.2s;
+  }
+  .five90{
+    animation-delay: 1.6s;
+  }
+@keyframes ani1 {
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes ani2 {
+    to{
+      width:100%;
+    }
+  }
 @media screen and (max-width: 500px) {
   .five1 {
     display: block;
@@ -559,6 +701,18 @@ body {
     font-size: 12px;
     margin: 1rem 0;
   }
+  .five77{
+      width:4.5rem;
+    }
+    .five81{
+      width: 5rem;
+      height: 5rem;
+      margin-top: 1rem;
+    }
+    .five82{
+      font-size: 18px;
+      line-height: 10px;
+    }
 }
 .overlay {
   position: fixed;

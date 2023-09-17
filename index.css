@@ -152,9 +152,11 @@ body{
     align-items: center;
     margin: 1.5rem 1rem;
     border-radius: 5px;
+    transition: all .5s ease 0s;
 }
 .first19:hover{
     box-shadow: 0px 3px 5px 2px rgba(189, 189, 189, 0.708);
+    transform: scale(1.1);
 }
 .first20, .first22{
     width: 3rem;
@@ -208,6 +210,7 @@ body{
     margin-bottom: 1rem;
     border-radius: 4px;
     cursor: pointer;
+    transition: all .5s ease 0s;
 }
 .first29:hover{
     width: 19rem;
@@ -285,6 +288,10 @@ body{
     background-color: white;
     border-radius: 50%;
     padding-top: 3px;
+    transition: all .5s ease 0s;
+}
+.first37:hover{
+    transform: scale(1.1) rotate(360deg);
 }
 .first38{
     width: 30px;

@@ -112,9 +112,6 @@
     transform: scaleY(1) rotateY(360deg);
 }
 .second17{
-    width:1.2rem;
-    height:1.2rem;
-    margin: 0 1rem;
     transform: rotate(-90deg);
     transition: all .5s ease 0s;
 }

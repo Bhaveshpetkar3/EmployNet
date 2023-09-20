@@ -56,7 +56,7 @@
                         <input type="text" placeholder="Search within records" class="five9"/>
                     </div>
                 </div>
-                <div class="six4">
+                <div class="six4" id="sixth6">
                   <div class="six5">
                       <div class="six6">Add Profession</div>
                       <div class="six6"><img src="gallery/arrow-white.png" alt="" class="six7"></div>
@@ -340,7 +340,109 @@
           <div class="six40" id="sixth2">Remove</div>
         </div>
       </div>
-      
+      <div class="six42">
+        <div class="five101 six43"><img src="gallery/arrow-left.png" alt="" class="five102"></div>
+        <div class="six35 six46">
+          <form action="">
+            <label for="service1" class="six44">Name of your service:</label><br>
+            <select name="service1" id="service1" onchange="pleaseSpecify(this)" class="six45" required>
+              <option value="labour">labour</option>
+              <option value="contractor">Contractor</option>
+              <option value="electrician">Electrician</option>
+              <option value="painter">Painter</option>
+              <option value="plumber">Plumber</option>
+              <option value="pest-control">Pest Control</option>
+              <option value="other" id="sixth7">Other</option>
+            </select>
+            <div id="sixth8" class="six55">
+              <label for="service2" class="six44">Please specify:</label>
+              <input type="text" id="service2" class="six45" required>
+            </div>
+            <label for="service3" class="six44">Final price:</label>
+            <input type="text" id="service3" class="six45" required>
+            <label for="service4" class="six44">Original price:</label>
+            <input type="text" id="service4" class="six45" required>
+            <label for="service5" class="six44">Profile images:</label>
+            <input type="file" id="service5" class="six45" required><br><br>
+            <label for="service6" class="six44">Availability:</label>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Mon</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Tue</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Wed</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Thu</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Fri</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Sat</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <div class="six47">
+              <div class="six48"></div>
+              <div class="six54">Sun</div>
+              <div class="six50">
+                <div class="six52"></div><div class="six53"> to </div><div class="six52"></div>
+              </div>
+              <div class="six51">
+                <input type="time" class="six49" required> to <input type="time" class="six49" required>
+              </div>
+            </div>
+            <br><label for="service7" class="six44">Description:</label>
+            <textarea name="service7" id="service7" class="six57"></textarea><br>
+            <div class="six39">
+              <input type="submit" class="six40" id="sixth9" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
       <div class="five62">
         <!-- modal==five62 -->
         <button class="close-window">&times;</button>

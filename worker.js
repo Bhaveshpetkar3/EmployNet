@@ -204,3 +204,56 @@ rmv_prof2.addEventListener("click", function(){
     alert("Seleted profile has been removed successfully!");
   }
 });
+
+let add_prof = document.getElementById("sixth6");
+let add_prof2 = document.querySelector(".six42");
+let add_prof3 = [".six43", ".five99"];
+
+add_prof.addEventListener("click", function(){
+  book_det.style.visibility="visible";
+  book_det.style.opacity="1";
+  add_prof2.style.visibility="visible";
+  add_prof2.style.transform="translate(-50%, -50%)";
+  add_prof2.style.top="50%";
+  add_prof2.style.opacity="1";
+});
+
+for(let i of add_prof3){
+  let rev2 = document.querySelector(i);
+  rev2.addEventListener("click", function(){
+    book_det.style.visibility="hidden";
+    book_det.style.opacity="0";
+    add_prof2.style.visibility="hidden";
+    add_prof2.style.transform="translate(-50%, 0)";
+    add_prof2.style.top="100%";
+    add_prof2.style.opacity="0";
+  });
+}
+
+let avail = document.querySelectorAll(".six48");
+let avail2 = document.querySelectorAll(".six50");
+let avail3 = document.querySelectorAll(".six51");
+for(let i=0;i<7;i++){
+  avail[i].addEventListener("click", function(){
+    if(avail3[i].style.display=="none"){
+      avail3[i].style.display="block";
+      avail2[i].style.display="none";
+      avail[i].style.backgroundColor="rgb(19, 188, 255)";
+    } else{
+      avail3[i].style.display="none";
+      avail2[i].style.display="flex";
+      avail[i].style.backgroundColor="white";
+    }
+  });
+}
+
+function pleaseSpecify(that){
+  let other2 = document.getElementById("sixth8");
+  if(that.value=="other"){
+    other2.classList.remove("six55");
+    other2.classList.add("six56");
+  } else{
+    other2.classList.add("six55");
+    other2.classList.remove("six56");
+  }
+}

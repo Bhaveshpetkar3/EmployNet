@@ -259,6 +259,17 @@
     overflow: auto;
     margin: .7rem;
 }
+.six35::-webkit-scrollbar{
+    width: 6px;
+}
+.six35::-webkit-scrollbar-track{
+    background-color: #e2e2e2;
+    border-radius: 6px;
+}
+.six35::-webkit-scrollbar-thumb{
+    background-color: rgb(173, 173, 173);
+    border-radius: 6px;
+}
 .six37{
     width: 22px;
     height: 22px;
@@ -296,7 +307,123 @@
     margin-top: .5rem;
     box-shadow: 1px 5px 7px 3px rgba(168, 168, 168, 0.708);
 }
-
+.six44{
+    margin: .5rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-size: 17px;
+    line-height: 30px;
+    color: #555;
+    font-weight: 600;
+}
+.six45{
+    width: 85%;
+    margin: .5rem;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 10px 2px rgba(163, 163, 163, 0.802);
+    height: 2.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    color: #555;
+    border: 1px solid gray;
+    outline: none;
+    padding: 0 .5rem;
+}
+.six45[type="file"]::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.six46{
+    max-height: 10cm;
+}
+.six47{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+.six48{
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 50%;
+    width: .7rem;
+    height: .7rem;
+    margin: 4px .7rem;
+    transition: all .5s ease 0s;
+    cursor: pointer;
+}
+.six49{
+    width: 5rem;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 5px 2px rgba(163, 163, 163, 0.802);
+    height: 1.5rem;
+    border: 1px solid gray;
+    outline: none;
+    margin: 6px 1rem;
+    cursor: pointer;
+}
+.six50{
+    display: flex;
+    align-items: center;
+}
+.six51{
+    display: none;
+}
+.six52{
+    width: 81px;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 5px 2px rgba(163, 163, 163, 0.802);
+    height: 24px;
+    border: 1px solid gray;
+    background-color: rgba(201, 201, 201, 0.479);
+    outline: none;
+    margin: 6px 1rem;
+}
+.six53{
+    margin: 0 4px;
+}
+.six54{
+    width:3rem;
+}
+.six55{
+    display: none;
+}
+.six56{
+    visibility: hidden;
+    height: 0;
+    animation: height .5s ease .5s 1 forwards;
+}
+.six57{
+    min-width: 80%;
+    max-width: 80%;
+    margin: 1rem .5rem;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 10px 2px rgba(163, 163, 163, 0.802);
+    height: 8rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555;
+    border: 1px solid gray;
+    outline: none;
+    padding: 0 1rem;
+}
+@keyframes height {
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        visibility: visible;
+        height: 84.13px;
+        transform: scaleY(1);
+    }
+}
 @keyframes ani1 {
     to{
       transform: scale(1);
@@ -341,5 +468,20 @@
     }
     .six33{
         width: 9cm;
+    }
+    .six42{
+        width: 9cm;
+    }
+    .six48{
+        margin: 4px .7rem;
+    }
+    .six49{
+        margin: 4px .5rem;
+    }
+    .six52{
+        margin: 4px .5rem;
+    }
+    .six54{
+        width:2.5rem;
     }
 }

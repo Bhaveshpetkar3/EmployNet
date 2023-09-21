@@ -1,0 +1,149 @@
+.seven1{
+    box-shadow: 0px 3px 26px rgba(85, 85, 85, 0.925);
+    border-radius: 4px;
+    background-color: white;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    max-width: 20.7cm;
+}
+.seven2{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.seven3{
+    margin: 0.5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555;
+    font-weight: 500;
+}
+.seven4{
+    width: 9rem;
+    margin: 0.5rem 1rem;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 5px 2px rgba(163, 163, 163, 0.802);
+    height: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555;
+    border: 1px solid gray;
+    outline: none;
+    padding: 4px .5rem;
+}
+.seven5{
+    display: inline-block;
+    width: 8rem;
+}
+.seven6{
+    margin: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+.seven7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    animation: height2 .5s ease .2s 1 forwards;
+}
+.seven8{
+    width: 5rem;
+    margin: 0.5rem 4px;
+    margin-right: 1rem;
+}
+.seven9{
+    font-size: 14px;
+}
+.seven10{
+    display: inline-block;
+}
+.seven11{
+    padding: 0 2rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.seven12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.seven13{
+    margin: 1rem .5rem;
+    padding: .5rem 1rem;
+    background-color: #555;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+.seven14{
+    width: 1.3rem;
+    height: 1.3rem;
+    transform: rotate(-90deg);
+    margin: 0 .5rem;
+    transition: all .5s ease 0s;
+}
+.seven15{
+    float: right;
+}
+.seven16{
+    display: none;
+}
+.seven17{
+    display: none;
+}
+.seven18{
+    cursor: pointer;
+}
+@keyframes height2 {
+    to{
+        transform: scaleY(1);
+        visibility: visible;
+    }
+}
+@media screen and (max-width:500px){
+    .seven4{
+        margin: 0.5rem;
+    }
+    .seven6{
+        border-bottom: 2px solid #c3c3c3;
+        margin: 0;
+        padding-bottom: 1.5rem;
+        margin-bottom: .5rem;
+    }
+    .seven7{
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #c3c3c3;
+    }
+    .seven8{
+        width: 7rem;
+        margin: .5rem 0;
+    }
+    .seven9{
+        font-size: 16px;
+    }
+    .seven10{
+        width: 9rem;
+    }
+    .seven11{
+        padding: 0 .7rem;
+        width: 100%;
+        margin: 0;
+    }
+}

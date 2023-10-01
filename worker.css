@@ -436,6 +436,9 @@
     }
 }
 @media screen and (max-width: 500px)  {
+    .six1{
+        display: none;
+    }
     .six19{
         width: 95%;
         border-top: 2px solid #c3c3c3;

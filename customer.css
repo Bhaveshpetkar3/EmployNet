@@ -19,9 +19,9 @@ body {
   }
   .five3 {
     display: flex;
+    width: 100%;
     align-items: center;
     background-color: white;
-    border-bottom: 2px inset #c3c3c3;
     cursor: pointer;
   }
   .five4 {
@@ -757,7 +757,7 @@ body {
     background-color: white;
     border-radius: 1rem;
     opacity: 0;
-    z-index: 4;
+    z-index: 5;
   }
   .five101{
     width: 2rem;
@@ -885,6 +885,23 @@ body {
     cursor: pointer;
     margin: 1rem 1cm;
   }
+.five115{
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.five116{
+  display: inline-flex;
+  width: 100%;
+  border-bottom: 2px inset #c3c3c3;
+  position: relative;
+}
+.five117{
+  border-right: 2px inset #c3c3c3;
+  margin-right: .5rem;
+  display: none;
+}
   @keyframes ani1 {
     to{
       transform: scale(1);
@@ -903,12 +920,13 @@ body {
       width: 100%;
       position: static;
       height: auto;
+      border-bottom: none;
+    }
+    .five8{
+      display: none;
     }
     .five17 {
       width: 100%;
-    }
-    .five14 {
-      border-top: 2px solid #c3c3c3;
     }
     .five24 {
       display: block;
@@ -990,6 +1008,9 @@ body {
     .five112{
       width: 1.8rem;
       height: 1.8rem;
+    }
+    .five117{
+      display: block;
     }
   }
   .overlay {

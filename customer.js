@@ -151,3 +151,36 @@ sub_review.addEventListener("click", function(){
     alert("Your review is being submitted successfully!");
   }
 });
+
+if(window.innerWidth<="500"){
+  let left_window = document.querySelector(".five8");
+  let left_window2 = document.createElement("div");
+  let left_window3 = document.querySelector(".five117");
+  let left_window4 = 0;
+  let left_window5 = document.querySelector(".five116");
+  left_window2.innerHTML = left_window.innerHTML;
+  left_window5.appendChild(left_window2);
+  left_window2.style.position="absolute";
+  left_window2.style.top="100%";
+  left_window2.style.zIndex="1";
+  left_window2.style.padding="1.5rem 0";
+  left_window2.style.marginTop=".5rem";
+  left_window2.style.width="7cm";
+  left_window2.style.boxShadow="0px 3px 5px 2px rgba(189, 189, 189, 0.708)";
+  left_window2.style.backgroundColor="white";
+  left_window2.style.visibility="hidden";
+  left_window2.style.transition="all .5s ease 0s";
+  left_window2.style.transformOrigin="top";
+  left_window2.style.transform="scaleY(0)";
+  left_window3.addEventListener("click", function(){
+    if(left_window4==0){
+      left_window2.style.visibility="visible";
+      left_window2.style.transform="scaleY(1)";
+      left_window4=1;
+    } else{
+      left_window2.style.visibility="hidden";
+      left_window2.style.transform="scaleY(0)";
+      left_window4=0;
+    }
+  });
+}

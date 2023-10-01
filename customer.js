@@ -83,9 +83,11 @@ ani2.forEach((i)=>{obs2.observe(i)});
 
 let last_row=document.getElementsByClassName("five96");
 let l = last_row.length;
-last_row[l-1].style.borderBottomRightRadius="4px";
-last_row[l-1].style.borderBottomLeftRadius="4px";
-last_row[l-1].style.marginBottom="1rem";
+if(l!=0){
+  last_row[l-1].style.borderBottomRightRadius="4px";
+  last_row[l-1].style.borderBottomLeftRadius="4px";
+  last_row[l-1].style.marginBottom="1rem";
+}
 
 let prev_book = document.querySelectorAll(".five96");
 let book_det = document.querySelector(".five99");
@@ -106,51 +108,59 @@ for(let i of prev_book){
 }
 
 let star=document.querySelectorAll(".five112");
-let stars=["one","two","three","four","five"];
-for(let i=0;i<5;i++){
-    star[i].addEventListener("click", function(){
-        for(let j=0;j<=i;j++){
-            star[j].setAttribute("src","gallery/"+stars[j]+".png");
-        }
-        for(let j=i+1;j<5;j++){
-            star[j].setAttribute("src","gallery/star.png");
-        }
-    });
+if(star.length!=0){
+  let stars=["one","two","three","four","five"];
+  for(let i=0;i<5;i++){
+      star[i].addEventListener("click", function(){
+          for(let j=0;j<=i;j++){
+              star[j].setAttribute("src","gallery/"+stars[j]+".png");
+          }
+          for(let j=i+1;j<5;j++){
+              star[j].setAttribute("src","gallery/star.png");
+          }
+      });
+  }
 }
 
 for(let i of rev){
   let rev2 = document.querySelector(i);
-  rev2.addEventListener("click", function(){
-    book_det.style.visibility="hidden";
-    book_det.style.opacity="0";
+  if(rev2!=null){
+    rev2.addEventListener("click", function(){
+      book_det.style.visibility="hidden";
+      book_det.style.opacity="0";
+      book_det2.style.visibility="hidden";
+      book_det2.style.transform="translate(-50%, 0)";
+      book_det2.style.top="100%";
+      book_det2.style.opacity="0";
+      review2.style.visibility="hidden";
+      review2.style.opacity="0";
+      review2.style.transform="translate(-50%, -100%)";
+      review2.style.top="0%";
+    });
+  }
+}
+
+if(review!=null){
+  review.addEventListener("click", function(){
+    review2.style.visibility="visible";
+    review2.style.opacity="1";
+    review2.style.transform="translate(-50%,-50%)";
+    review2.style.top="50%";
     book_det2.style.visibility="hidden";
     book_det2.style.transform="translate(-50%, 0)";
     book_det2.style.top="100%";
     book_det2.style.opacity="0";
-    review2.style.visibility="hidden";
-    review2.style.opacity="0";
-    review2.style.transform="translate(-50%, -100%)";
-    review2.style.top="0%";
   });
 }
 
-review.addEventListener("click", function(){
-  review2.style.visibility="visible";
-  review2.style.opacity="1";
-  review2.style.transform="translate(-50%,-50%)";
-  review2.style.top="50%";
-  book_det2.style.visibility="hidden";
-  book_det2.style.transform="translate(-50%, 0)";
-  book_det2.style.top="100%";
-  book_det2.style.opacity="0";
-});
-
 let sub_review = document.querySelector(".five114");
-sub_review.addEventListener("click", function(){
-  if(confirm("Are you sure?")){
-    alert("Your review is being submitted successfully!");
-  }
-});
+if(sub_review!=review){
+  sub_review.addEventListener("click", function(){
+    if(confirm("Are you sure?")){
+      alert("Your review is being submitted successfully!");
+    }
+  });
+}
 
 if(window.innerWidth<="500"){
   let left_window = document.querySelector(".five8");
